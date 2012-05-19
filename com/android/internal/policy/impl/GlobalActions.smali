@@ -427,7 +427,7 @@
     .prologue
     const/4 v10, 0x1
 
-    const/4 v9, 0x4
+    const/4 v9, 0x6
 
     .line 125
     new-instance v0, Lcom/android/internal/policy/impl/GlobalActions$1;
@@ -516,6 +516,30 @@
     invoke-direct {v2, p0, v3, v4}, Lcom/android/internal/policy/impl/GlobalActions$4;-><init>(Lcom/android/internal/policy/impl/GlobalActions;II)V
 
     aput-object v2, v0, v1
+
+    const/4 v1, 0x4
+
+	new-instance v2, Lcom/android/internal/policy/impl/GlobalActions$8
+
+	const v3, 0x108045f
+
+	const v4, 0x104052e
+
+	invoke-direct {v2, p0, v3, v4}, Lcom/android/internal/policy/impl/GlobalActions$8;-><init>(Lcom/android/internal/policy/impl/GlobalActions;II)V
+
+	aput-object v2, v0, v1
+
+	const/4 v1, 0x5
+
+	new-instance v2, Lcom/android/internal/policy/impl/GlobalActions$9
+
+	const v3, 0x1080460
+
+	const v4, 0x104052f
+
+	invoke-direct {v2, p0, v3, v4}, Lcom/android/internal/policy/impl/GlobalActions$9;-><init>(Lcom/android/internal/policy/impl/GlobalActions;II)V
+
+	aput-object v2, v0, v1
 
     invoke-static {v0}, Lcom/google/android/collect/Lists;->newArrayList([Ljava/lang/Object;)Ljava/util/ArrayList;
 
