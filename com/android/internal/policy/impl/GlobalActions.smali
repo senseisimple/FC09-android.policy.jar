@@ -531,7 +531,7 @@
 
 	const/4 v1, 0x5
 
-	new-instance v2, Lcom/android/internal/policy/impl/GlobalActions$9
+	new-instance v2, Lcom/android/internal/policy/impl/GlobalActions$9;
 
 	const v3, 0x1080460
 
